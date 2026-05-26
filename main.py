@@ -95,7 +95,7 @@ def awal():
     delay(1)
     cls()
     _pss(pen,0.1)
-    pss("Selamat datang di toko Aing macan",0.1)
+    pss("Selamat datang di toko Bintang",0.1)
     _pss(pen,0.1)
     pss("Kami Menjual Berbagai Barang, Silahkan Melihat lihat",0.1)
     delay(1)
@@ -182,6 +182,8 @@ def get_barang_di_lokasi(lokasi):
     return barang_ditemukan
 
 def tindakan_tanya():
+    cls()
+    print("="*7," Bertanya Pada Kasir ","=*7","\n")
     pertanyaan = ["1. Tanya Barang","2. Lokasi Barang", "3. Promosi Terbaru","0. Tidak jadi Bertanya"]
     for i in pertanyaan:
         pss(i,0.03)
