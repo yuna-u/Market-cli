@@ -1,4 +1,4 @@
-Toko Bintnag - Simulasi Text-Based Adventure
+Toko Bintnag - Simulasi Text-Base 
 
 📋 Deskripsi
 
