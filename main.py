@@ -153,7 +153,6 @@ def get_database():
     return game.db
 
 def kurangi_stok_database(nama_barang, qty):
-    """Mengurangi stok di database global setelah pembayaran"""
     db = get_database()
     for kategori, items in db.items():
         for key, item in items.items():
@@ -174,7 +173,6 @@ def cari_barang_di_database(nama_input):
     return None
 
 def get_barang_di_lokasi(lokasi):
-    """Mengembalikan list barang yang ada di lokasi tertentu"""
     db = get_database()
     barang_ditemukan = []
     for kategori, items in db.items():
